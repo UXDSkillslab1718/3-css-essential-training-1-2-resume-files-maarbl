@@ -4,9 +4,10 @@ body {
     font-family: 'Noto Sans TC', sans-serif;
     background: rgb(242, 215, 238);
     color: rgb(165, 102, 139);
+    margin: 0;
 }
 
-/* Headers and link
+/* Text and headers
 --------------------------- */
 h2 {
     font-size: 40px;
@@ -24,6 +25,23 @@ a {
 a:hover {
     text-decoration: none;
     }
+.content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+}
 
 /* Header and Footer
 --------------------------- */
@@ -31,11 +49,27 @@ header, footer {
      background: rgb(211, 188, 192);
     color: rgb(14, 16, 61);
 }
+/* Footer*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+    background: rgb(242, 215, 238);
+    padding: 15px;
+}
+/* Header */
+.profile-img {
+    border-radius: 50%;
+}
 h1, header h2, footer h2{
+    margin-top: 0;
     font-family: 'Caveat Brush', cursive;
-     font-weight: 400;
+    font-weight: 400;
     background: rgb(211, 188, 192);
     color: rgb(14, 16, 61);
+}
+header{
+  margin: 0;
 }
 h1 {
     font-size: 80px;
