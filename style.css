@@ -1,28 +1,43 @@
 /* Global styles
 --------------------------- */
 body {
+    font-family: 'Noto Sans TC', sans-serif;
     background: rgb(242, 215, 238);
     color: rgb(165, 102, 139);
 }
 
-/* Header and Footer
---------------------------- */
-header, footer {
-    background: rgb(211, 188, 192);
-    color: rgb(105, 48, 109);
-}
-footer {
-     color: rgb(105, 48, 109);
-}
-header h1, header h2 {
-    color: rgb(14, 16, 61);
-}
-
 /* Headers and link
 --------------------------- */
-h2, a {
-    color: rgb(105, 48, 109);
-    }
+h2 {
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400;
+    color: #69306D;
+}
+h3 {
+    color: #69306D;
+}
+a {
+   font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(14, 16, 61);
+}
 a:hover {
     text-decoration: none;
     }
+
+/* Header and Footer
+--------------------------- */
+header, footer {
+     background: rgb(211, 188, 192);
+    color: rgb(14, 16, 61);
+}
+h1, header h2, footer h2{
+    font-family: 'Caveat Brush', cursive;
+     font-weight: 400;
+    background: rgb(211, 188, 192);
+    color: rgb(14, 16, 61);
+}
+h1 {
+    font-size: 80px;
+}
+
