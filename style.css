@@ -76,12 +76,27 @@ h1, header h2, footer h2{
 }
 header{
   margin: 0;
+    padding-top: 70px;
+    position: relative;
 }
 h1 {
     font-size: 80px;
 }
 h3 ~ p {
     margin-left: 40px;
+}
+.btn {
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(14, 16, 61);
+    color: rgb(211, 188, 192);
+}
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 
@@ -91,7 +106,22 @@ p + h3 {
     margin-top: 20px;
 }
 
-
+/* Navigation
+-----------------------------*/
+nav {
+    background: rgb(14, 16, 61);;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+   padding: 20px 15px;
+    color: rgb(211, 188, 192);
+    text-decoration: none;
+    font-size: 25px;
+}
 
 
 
