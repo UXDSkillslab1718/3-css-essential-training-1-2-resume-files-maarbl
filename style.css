@@ -3,7 +3,7 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
     background: rgb(242, 215, 238);
-    color: rgb(165, 102, 139);
+    color: #69306D;
     margin: 0;
 }
 h3 {
@@ -104,6 +104,11 @@ h3 ~ p {
 -----------------------------*/
 p + h3 {
     margin-top: 20px;
+}
+#education {
+    background: linear-gradient(rgba(242, 215, 238, 0.8), rgba(242, 215, 238, 0.5)),
+    url(https://fs.bitcoinmagazine.com/img/images/stpetersburg.original.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 /* Navigation
